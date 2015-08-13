@@ -27,7 +27,7 @@ message(STATUS "Git commit hash: ${GIT_COMMIT_HASH}")
 message(STATUS "Generating version.h")
 
 configure_file(
-  ${CMAKE_SOURCE_DIR}/include/version.h.in
+  ${CMAKE_SOURCE_DIR}/version.h
   ${CMAKE_BINARY_DIR}/generated/version.h
 )
 
